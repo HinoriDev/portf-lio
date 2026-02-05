@@ -1,34 +1,54 @@
-# Portfólio — Base
+# 🚀 Portfólio Profissional — HinoriDev
 
-Esta é uma base simples para um portfólio pessoal.
+<p align="center">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" alt="Netlify">
+</p>
 
-Como usar
+Este é o meu hub central de projetos e experiências, desenvolvido para apresentar meu trabalho de forma clara, moderna e responsiva. O site funciona como um cartão de visitas digital para recrutadores e colaboradores.
 
-- Abrir `index.html` no navegador (duplo clique ou via `start index.html` no PowerShell).
-- Atualizar os textos na seção `Sobre`, os cards em `Projetos` e os links.
-- Substituir as miniaturas por imagens reais e apontar os links para repositórios/versões hospedadas.
+> **Status do Projeto:** 🟢 Ativo  
+> **Live Demo:** [Aceda ao meu portfólio aqui](https://hinoridev.github.io/Portfolio/)
 
-Deploy rápido
+---
 
-- GitHub Pages: criar repositório e enviar os arquivos (branch `main`), então ativar Pages nas configurações.
-- Netlify/Vercel: arrastar e soltar a pasta, ou conectar ao repositório Git.
+## 🛠️ Tecnologias e Ferramentas
 
-Netlify Forms (integração rápida)
+Para construir esta aplicação, utilizei um conjunto de tecnologias focadas em performance e semântica:
 
-- Os formulários de contato e newsletter já estão preparados para o Netlify Forms.
-- Para usar: faça deploy do projeto no Netlify (conecte ao repositório ou arraste a pasta).
-- O Netlify detectará os formulários com `data-netlify="true"`. Você poderá visualizar envios no painel "Forms" do site no Netlify.
-- Para testar localmente, o envio por fetch será interceptado pelo navegador, mas os envios só serão processados após o deploy. O handler JS fornece feedback visual imediato.
+* **HTML5:** Estrutura semântica e acessível.
+* **CSS3:** Estilização personalizada com foco em responsividade.
+* **JavaScript:** Lógica de interatividade e manipulação do DOM.
+* **Netlify Forms:** Integração nativa para captura de mensagens e newsletter.
 
-Exemplo de comportamento
+## 📂 Organização do Repositório
 
-- `contatos.html` contém um formulário nomeado `contact` e usará Netlify Forms quando o site estiver hospedado no Netlify.
-- O rodapé contém um formulário `newsletter` que também submete para Netlify.
+O projeto segue uma estrutura organizada para facilitar a manutenção:
 
-Se quiser, posso integrar em vez disso EmailJS (envio direto para seu e-mail via serviço de cliente) — me diga qual prefere.
+| Arquivo/Diretório | Descrição |
+| :--- | :--- |
+| `index.html` | Página principal com apresentação e "Sobre Mim". |
+| `projetos.html` | Galeria detalhada dos meus principais trabalhos. |
+| `contatos.html` | Página dedicada com formulário integrado ao Netlify. |
+| `styles.css` | Ficheiro central de estilização. |
+| `/imagens` | Assets visuais e miniaturas dos projetos. |
 
-Próximos passos sugeridos
+## 📩 Sistema de Contacto e Newsletter
 
-- Adicionar um formulário real usando EmailJS ou um endpoint de backend.
-- Incluir páginas separadas para cada projeto ou carregar dados dinamicamente.
-- Melhorar SEO e adicionar metatags og/twitter.
+Implementei uma solução de **Netlify Forms** que permite:
+* **Envio Direto:** Mensagens enviadas pelo formulário `contact` chegam diretamente ao painel administrativo.
+* **Newsletter:** Inscrição rápida através do formulário no rodapé.
+* **Feedback:** O handler JS fornece feedback visual imediato após o envio.
+
+---
+
+## 📈 Próximos Passos (Roadmap)
+
+* [ ] Migrar formulários para **EmailJS** para maior flexibilidade.
+* [ ] Implementar carregamento dinâmico de projetos através de um ficheiro JSON.
+* [ ] Melhorar o SEO e adicionar MetaTags para redes sociais.
+
+---
+✨ Desenvolvido por [HinoriDev](https://github.com/HinoriDev)
